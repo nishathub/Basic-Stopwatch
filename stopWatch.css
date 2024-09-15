@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(55, 91, 91);
+    height: 100vh;
+    margin: 0;
+}
+h1, h2{
+    color: whitesmoke;
+}
+header{
+    text-align: center;
+    padding: 40px;
+
+}
+header h1{
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container #stopWatchBox{
+    box-shadow: 0 0 5px 0 white;
+    background-color: rgb(55, 99, 91);
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#stopWatchBox .display-box {
+    border-bottom: 1px solid rgb(191, 190, 190);
+}
+#stopWatchBox .display-box h2{
+    font-size: 50px;
+    line-height: 0px;
+}
+#stopWatchBox .control-buttons{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+#stopWatchBox .control-buttons button{
+    height: 30px;
+    width: 60px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: whitesmoke;
+    box-shadow: 0 0 2px 0 white;
+    transition-duration: 0.3s;
+}
+#stopWatchBox .control-buttons button:hover{
+    background-color: lightcyan;
+    color: black;
+}
